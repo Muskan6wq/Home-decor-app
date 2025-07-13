@@ -8,11 +8,13 @@ import Visa from "../assets/visa.png";
 
 export default function Footer() {
     return (
+
+
+
         <footer className="bg-black text-white text-sm px-6 md:px-16 py-12">
             {/* CTA Section */}
             <div className="text-center mb-16">
                 <h2 className="text-2xl md:text-4xl font-semibold italic mb-4 leading-snug">
-                    We Provide best <br className="md:hidden" /> handpicked home decor
                 </h2>
                 <button className="border px-6 py-2 hover:bg-white hover:text-black transition">
                     EXPLORE OUR PRODUCTS
@@ -29,7 +31,7 @@ export default function Footer() {
                     <h3 className="uppercase text-xs tracking-wide mb-3">
                         Subscribe to receive grape news & offers
                     </h3>
-                    <div className="flex mb-3">
+                    <div className=" mr-40 lg:mr-96 flex mb-3">
                         <input
                             type="email"
                             placeholder="Enter your email"
@@ -113,6 +115,8 @@ export default function Footer() {
                 </div>
                 <div className="text-white/50">PRIVACY POLICY | TERMS OF USE</div>
             </div>
+
+
         </footer>
     );
 }
